@@ -1,10 +1,10 @@
 import Foundation
 
-class App {
-    func run() {
-        print("New Swift App Running! 🚀")
+
+struct ProductCatalogApp {
+    static func main() {
+        let productController = ProductCatalogController()
+        productController.run()
     }
 }
-
-let app = App()
-app.run()
+ProductCatalogApp.main()
